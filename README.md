@@ -8,3 +8,8 @@
 1. For each movie that has at least one rating, find the highest number of stars that movie received. Return the movie title and number of stars. Sort by movie title. 
 1. For each movie, return the title and the 'rating spread', that is, the difference between highest and lowest ratings given to that movie. Sort by rating spread from highest to lowest, then by movie title. 
 1. Find the difference between the average rating of movies released before 1980 and the average rating of movies released after 1980. (Make sure to calculate the average rating for each movie, then the average of those averages for movies before 1980 and movies after. Don't just calculate the overall average rating before and after 1980.) 
+# Rating extra queries 
+1. Find the names of all reviewers who rated Gone with the Wind. 
+1. For any rating where the reviewer is the same as the director of the movie, return the reviewer name, movie title, and number of stars.
+1. Return all reviewer names and movie names together in a single list, alphabetized. (Sorting by the first name of the reviewer and first word in the title is fine; no need for special processing on last names or removing "The".) 
+1. Find the titles of all movies not reviewed by Chris Jackson. 
